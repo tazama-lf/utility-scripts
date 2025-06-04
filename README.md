@@ -1,6 +1,6 @@
-Scripts that Automate DevOps / Project Management Tasks
+# Scripts that Automate DevOps / Project Management Tasks
 
-# Branch Protection Script for Tazama-lf and Frmscoe  with GitHub CLI Script
+## Branch Protection Script for Tazama-lf and Frmscoe  with GitHub CLI Script
 
 What This Will Do:
 
