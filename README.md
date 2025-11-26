@@ -1,35 +1,16 @@
-# Scripts that Automate DevOps / Project Management Tasks
+# Scripts that Automate DevOps / Project Management Tasks For Tazama Project
 
-## Branch Protection Script for Tazama-lf and Frmscoe  with GitHub CLI Script
+These scripts help us automate tedious processes around our git workflow and development processes as a community.
 
-What This Will Do:
+Each folder has a `notes.md` file with instructions on how they must be used.
 
-- Protect both dev and main branches with the rules listed below.
+Listed scripts include;
 
-- Require Pull request before merging
-- 2 approvals for the Pull request
-- Dismiss stale PR approvals
-- Require status checks to pass on Pull request
-- Block merging unless conversation is resolved
-- Prevent bypassing rules (admin enforcement)
-
-
-## Pre-requisites
-
-- Install git locally on your computer.
-
-- Be an admin on the `tazama-lf` and `frmscoe` github accounts.
-
-- Ensure both `dev` and `main` branches exist in the declared repos.
-
-- Ensure the repo list is updated by adding / removing the repo list.
-
-- Generate a fine-grained personal access token with repo and admin:repo_hook scopes:
-    Go to https://github.com/settings/tokens
-    Save your token securely.
-
-- Authentiate with the token generated above. Run `gh auth login`
-
-- Make the script executable by running `chmod +x githubcli.sh`. This has to be done at least once for all folders / github accounts.
-
-- Run the script to set the branch protection rules with `./githubcli.sh`
+- Branch-protection
+- Add or edit code owners
+- Creating milestones
+- Delete milestones
+- Create PRs from dev to main
+- Create a new branch across all repos
+- Enable and disable github workflows
+- Linux script to approve and merge multiple PRs at ago.
